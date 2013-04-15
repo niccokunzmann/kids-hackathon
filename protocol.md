@@ -40,6 +40,9 @@ kids choose tools freely
 	-	https://www.google.de/search?q=python+based+text+adventure+game&ie=utf-8&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&sei=r0dsUbmsGsibtAaWu4DQDw&gbv=2
 	-	create own dungeons, walk around
 	-	each module is a room
+	-	more like point and click: http://de.wikipedia.org/wiki/Point-and-Click
+	-	like: you have items, create something out of it
+	-	play it together: work on different rooms
 
 **TODO**
 
