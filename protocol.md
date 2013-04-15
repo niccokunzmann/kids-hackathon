@@ -9,6 +9,14 @@ Free Association game
 >	
  ->	form groups
 
+Free Dissociation game
+>
+ -> someone says monkey, you shall not say banana, could be totally fun
+>
+-> half half -> dissociation association, maybe change with a coin
+
+
+
 In Groups
 ---------
 
