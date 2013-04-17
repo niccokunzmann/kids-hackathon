@@ -82,8 +82,8 @@ thread.start()
 def behandle_spieler_verbindung(verbindung):
     try:
         stdio.set_socket(verbindung)
-        sys.stderr.write( 'habe verbindung angenommen!\n')
-        print 'Hallo! :)'
+        #sys.stderr.write( 'habe verbindung angenommen!\n')
+        #print 'Hallo! :)'
         while 1:
             weiter_in('start')
     finally:
@@ -145,5 +145,7 @@ __all__ = ['weiter_in', 'weiter_im', 'held', 'rechnername', 'zimmer']
 
 if __name__ == '__main__':
     while 1:
-        print '-' * 80
-        weiter_in('start')
+        s = weiter_in('start')
+        if s != 'Fertig durch das Zimmer gelaufen.':
+            print s
+            break
