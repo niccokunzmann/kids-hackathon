@@ -7,3 +7,4 @@ What do we have to bring:
 Nicco brings:
 - switch + LAN cables if needed
 - 3-USB devices
+- print out scratch cards
