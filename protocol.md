@@ -51,6 +51,7 @@ kids choose tools freely
 	-	more like point and click: http://de.wikipedia.org/wiki/Point-and-Click
 	-	like: you have items, create something out of it
 	-	play it together: work on different rooms
+    -   ascii art webseite. unicode support?
 
 **TODO**
 
