@@ -4,10 +4,7 @@ from spiel import *
 ich = held()
 print '-' * 80
 print 'Willkommen im Schloss', rechnername
-print 'Wie heisst du?'
+print 'Wie heißt du?'
 ich.name = raw_input()
-
-print "Sei Willkommen im Spiel,", ich.name
-print "Du gehst ins Wohnzimmer..."
+print 'Ich grüße dich,', ich.name
 weiter_im('wohnzimmer')
-print "du bist zurück vom Wohnzimmer"

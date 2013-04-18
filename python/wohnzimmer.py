@@ -5,7 +5,6 @@ from spiel import *
 ich = held()
 
 print 'Du bist im Wohnzimmer'
-print 'Du bist im Wohnzimmer'
 
 # mehr zu point and click umbauen
 # spiel bringt python bei

@@ -1,4 +1,5 @@
 ﻿#!/usr/bin/python2
+import pickle
 import os
 from threading import local
 import sys
@@ -91,9 +92,88 @@ def behandle_spieler_verbindung(verbindung):
 
 ################ Held
 
+alle_spielstaende = {} # (class, name) -> obj
+
+SPEICHERINTERVALL = 1 # Sekunden
+_zu_speichern = []
+
+def alles_abspeichern():
+    while 1:
+        for stand in _zu_speichern:
+            try:
+                stand.speichern()
+            except:
+                traceback.print_exc()
+        time.sleep(SPEICHERINTERVALL)
+    
+thread = threading.Thread(target = alles_abspeichern)
+thread.start()
+            
+def wird_gespeichert(spielstand):
+    _zu_speichern.append(spielstand)
+
+def lade_spielstand(cls, name):
+    stand = alle_spielstaende.get((cls, name))
+    if stand is None: stand = cls(name)
+    return stand
+    
+class Spielstand(object):
+    _speichernd = [] # welche objekte werden gerade abgespeichert
+    _speicherzeit = 0
+    _name = None
+    def __init__(self, name = None):
+        self.name = name
+        
+    @property
+    def name(self):
+        return self._name
+        
+    @name.setter
+    def name(self, name):
+        if name is None:
+            return 
+        if self._name is None:
+            self._name = name
+            self.laden()
+            wird_gespeichert(self)
+        elif self.name == name: pass
+        else: print "Wie kommt es,", self._name, ", dass sie einen " \
+                    "anderen Namen wie", name, 'annehmen wollen?'
+
+    def datei(self):
+        filename = os.path.join('spielstand', self.name + '.' + \
+                                 self.__class__.__name__.lower())
+        return open(filename, 'w+b')
+        
+    def wird_gespeichert(self):
+        return (self, threading._get_ident()) in self._speichernd
+    
+    def speichern(self):
+        self._speichernd.append((self, threading._get_ident()))
+        try:
+            with self.datei() as f:
+                pickle.dump(self, f)
+        finally:
+            self._speichernd.remove((self, threading._get_ident()))
+            
+    def __reduce__(self):
+        if not self.wird_gespeichert():
+            return lade_spielstand, (self.__class__, self.name)
+        return lade_spielstand, (self.__class__, self.name), [], self.__dict__
+        
+    def laden(self):
+        print 'laden!'
+        with self.datei() as f:
+            try:
+                pickle.load(f)
+            except EOFError:
+                pass # new file
+            
+
+
 verbindungsinformationen = threading.local()
 
-class Held(object):
+class Held(Spielstand):
     pass
 
 def held():
@@ -104,7 +184,7 @@ def held():
         verbindungsinformationen.held = held
         return held
 
-class Zimmer(object):
+class Zimmer(Spielstand):
     def __init__(self, name):
         self.name = name
     
@@ -127,11 +207,13 @@ def weiter_im(zimmer):
         return 'Fertig durch das Zimmer gelaufen.'
     except SyntaxError:
         traceback.print_exc(file = sys.stdout)
-        print "Das Zimmer", zimmer ,"wird gerade renoviert. Es hat noch diesen Fehler, weshalb man es nicht betreten kann"
+        print "Das Zimmer", zimmer ,"wird gerade renoviert. Es hat noch diesen"\
+              " Fehler, weshalb man es nicht betreten kann"
         return 'SyntaxError'
     except:
         traceback.print_exc(file = sys.stdout)
-        print "Als du in dem Zimmer warst, ist der Fehler von obendrüber aufgetreten. "
+        print "Als du in dem Zimmer warst, ist der Fehler von obendrüber " \
+              "aufgetreten. "
         print "Das hat dich dorthin zurück katapultiert, wo du vorher warst."
         return 'Fehler'
 
@@ -140,7 +222,8 @@ weiter_in = weiter_im
 
 rechnername = socket.gethostname()
 
-__all__ = ['weiter_in', 'weiter_im', 'held', 'rechnername', 'zimmer']
+__all__ = ['weiter_in', 'weiter_im', 'held', 'rechnername', 'zimmer', \
+           'lade_spielstand']
 
 
 if __name__ == '__main__':
