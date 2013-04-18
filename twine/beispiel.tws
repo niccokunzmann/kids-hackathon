@@ -1,7 +1,7 @@
 (dp0
 S'buildDestination'
 p1
-VC:\u005cUsers\u005cwollknaeul\u005cAppData\u005cLocal\u005cTemp\u005ctwine.html
+VC:\u005cUsers\u005cwollknaeul\u005cDocuments\u005cprogrammiertes\u005ckids-hackathon\u005ctwine\u005cbeispiel.html
 p2
 sS'saveDestination'
 p3
@@ -66,18 +66,18 @@ VStart
 p30
 sbsa(dp31
 g12
-I00
+I01
 sg13
 (lp32
-I278
-aI157
+I115
+aI249
 asg15
 (itiddlywiki
 Tiddler
 p33
 (dp34
 g18
-Vlalala
+VEs wird gesungen: [[Yellow Submarine]].\u000a\u000a\u000a* <<choice "mitgesungen">>\u000a* <<choice "nicht mitgesungen">>\u000a\u000aDa gibts einen [[Pot actions]]
 p35
 sg20
 (lp36
@@ -101,7 +101,377 @@ g40
 sg29
 VPassage
 p41
+sbsa(dp42
+g12
+I00
+sg13
+(lp43
+I526
+aI324
+asg15
+(itiddlywiki
+Tiddler
+p44
+(dp45
+g18
+V<<actions "Lift the lid of the white pot" "Lift the lid of the black pot" "Lift the lid of the red pot" "Walk to the archway">>\u000a
+p46
+sg20
+(lp47
+sg22
+g23
+((I2013
+I4
+I18
+I13
+I45
+I4
+I3
+I108
+I1
+tp48
+(dp49
+tp50
+Rp51
+sg28
+g51
+sg29
+VPot actions
+p52
+sbsa(dp53
+g12
+I00
+sg13
+(lp54
+I290
+aI10
+asg15
+(itiddlywiki
+Tiddler
+p55
+(dp56
+g18
+VGutes Gelingen!
+p57
+sg20
+(lp58
+sg22
+g23
+((I2013
+I4
+I18
+I13
+I49
+I40
+I3
+I108
+I1
+tp59
+(dp60
+tp61
+Rp62
+sg28
+g62
+sg29
+VEmbedded Passage
+p63
+sbsa(dp64
+g12
+I00
+sg13
+(lp65
+I495
+aI11
+asg15
+(itiddlywiki
+Tiddler
+p66
+(dp67
+g18
+V\u000a\u000aYellow Submarine\u000a    In the town where I was born,\u000a    Lived a man who sailed the sea,\u000a    And he told us of his life,\u000a    In the land of submarines.\u000a    So we sailed on to the sun,\u000a    Till we found the sea of green,\u000a    And we lived beneath the waves,\u000a    In our yellow submarine.\u000a\u000a<<display "Chorus">>\u000a\u000a    And our friends are all aboard,\u000a    Many more of them live next door,\u000a    And the band begins to play.\u000a\u000a<<display "Chorus">>\u000a\u000a    As we live a life of ease,\u000a    Everyone of us has all we need,\u000a    Sky of blue and sea of green,\u000a    In our yellow submarine.\u000a\u000a<<display "Chorus">>\u000a\u000a\u000a
+p68
+sg20
+(lp69
+sg22
+g23
+((I2013
+I4
+I18
+I13
+I55
+I3
+I3
+I108
+I1
+tp70
+(dp71
+tp72
+Rp73
+sg28
+g73
+sg29
+VYellow Submarine
+p74
+sbsa(dp75
+g12
+I00
+sg13
+(lp76
+I626
+aI12
+asg15
+(itiddlywiki
+Tiddler
+p77
+(dp78
+g18
+V    We all live in a yellow submarine,\u000a    Yellow submarine, yellow submarine.\u000a    We all live in a yellow submarine,\u000a    Yellow submarine, yellow submarine.
+p79
+sg20
+(lp80
+sg22
+g23
+((I2013
+I4
+I18
+I14
+I6
+I33
+I3
+I108
+I1
+tp81
+(dp82
+tp83
+Rp84
+sg28
+g84
+sg29
+VChorus
+p85
+sbsa(dp86
+g12
+I00
+sg13
+(lp87
+I255
+aI249
+asg15
+(itiddlywiki
+Tiddler
+p88
+(dp89
+g18
+V<<display 'Embedded Passage'>>
+p90
+sg20
+(lp91
+sg22
+g23
+((I2013
+I4
+I18
+I14
+I11
+I43
+I3
+I108
+I1
+tp92
+(dp93
+tp94
+Rp95
+sg28
+g95
+sg29
+Vmitgesungen
+p96
+sbsa(dp97
+g12
+I00
+sg13
+(lp98
+I395
+aI249
+asg15
+(itiddlywiki
+Tiddler
+p99
+(dp100
+g18
+VTja, lieder erfährst du jetzt bestimmte Sachen nicht!
+p101
+sg20
+(lp102
+sg22
+g23
+((I2013
+I4
+I18
+I14
+I11
+I57
+I3
+I108
+I1
+tp103
+(dp104
+tp105
+Rp106
+sg28
+g106
+sg29
+Vnicht mitgesungen
+p107
+sbsa(dp108
+g12
+I00
+sg13
+(lp109
+I10
+aI389
+asg15
+(itiddlywiki
+Tiddler
+p110
+(dp111
+g18
+VThere are chocolates inside! And they're delicious.\u000a<<display "Pot actions">>
+p112
+sg20
+(lp113
+sg22
+g23
+((I2013
+I4
+I18
+I14
+I12
+I20
+I3
+I108
+I1
+tp114
+(dp115
+tp116
+Rp117
+sg28
+g117
+sg29
+VLift the lid of the white pot
+p118
+sbsa(dp119
+g12
+I00
+sg13
+(lp120
+I150
+aI389
+asg15
+(itiddlywiki
+Tiddler
+p121
+(dp122
+g18
+VThere's licorice inside. You've never been that much of a fan, but maybe someone you encounter on your quest will like them.\u000a<<display "Pot actions">>
+p123
+sg20
+(lp124
+sg22
+g23
+((I2013
+I4
+I18
+I14
+I12
+I52
+I3
+I108
+I1
+tp125
+(dp126
+tp127
+Rp128
+sg28
+g128
+sg29
+VLift the lid of the black pot
+p129
+sbsa(dp130
+g12
+I00
+sg13
+(lp131
+I290
+aI389
+asg15
+(itiddlywiki
+Tiddler
+p132
+(dp133
+g18
+VIt's empty! Looks like someone got here before you did.\u000a<<display "Pot actions">>
+p134
+sg20
+(lp135
+sg22
+g23
+((I2013
+I4
+I18
+I14
+I12
+I57
+I3
+I108
+I1
+tp136
+(dp137
+tp138
+Rp139
+sg28
+g139
+sg29
+VLift the lid of the red pot
+p140
+sbsa(dp141
+g12
+I00
+sg13
+(lp142
+I10
+aI529
+asg15
+(itiddlywiki
+Tiddler
+p143
+(dp144
+g18
+VYou continue on your brave quest... 
+p145
+sg20
+(lp146
+sg22
+g23
+((I2013
+I4
+I18
+I14
+I13
+I4
+I3
+I108
+I1
+tp147
+(dp148
+tp149
+Rp150
+sg28
+g150
+sg29
+VWalk to the archway
+p151
 sbsasS'scale'
-p42
+p152
 I1
 ss.
