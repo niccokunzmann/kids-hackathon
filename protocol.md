@@ -15,65 +15,57 @@ Free Dissociation game
 >
 -> half half -> dissociation association, maybe change with a coin
 
-
-
 In Groups
 ---------
-
-kids choose tools freely
-
-**TODO**: evaluate tools:
--------------------------
-
--	Mire (adriano)
-		
-	
--	textadventures.co.uk (adriano)
-		
-	
--	scratch (tanja)
-	-	here´s the project based on Scratch taht I found
-		http://scratch.mit.edu/projects/archmage/595656
-		but there is also this one that I had no time to look at
-		http://scratch.mit.edu/forums/viewtopic.php?id=23508
-	
-	
--	deform (tanja)
-		
-	
--	twine (nicco)
-		
-	
--	python (nicco)
-	-	https://www.google.de/search?q=python+based+text+adventure+game&ie=utf-8&oe=utf-8&rls=org.mozilla:en-US:official&client=firefox-a&sei=r0dsUbmsGsibtAaWu4DQDw&gbv=2
-	-	create own dungeons, walk around
-	-	each module is a room
-	-	more like point and click: http://de.wikipedia.org/wiki/Point-and-Click
-	-	like: you have items, create something out of it
-	-	play it together: work on different rooms
-    -   ascii art webseite. unicode support?
-
-**TODO**
-
--	how to do this with kids - find articles (tanja)
-	How to write adventures together:
-		http://weltenbuchv1.jcgames.de/spielleiter/abenteuer.html
-
-**TODO**
-
--	find a place to host website adventures so others can try them out (nicco)
--	better not git (must install + explain)
-
-
-pause: "you do not need to do anything now" -> see who will go on.
-
-**TODO** crosscutting:
-
--	consider 2 options: one with internet one without internet
 
 Thursday: meet 30 min earlier
 
 -	default: We meet again on monday, decide wether this works out ok.
 
+Protocol for 18th April 2013
+----------------------------
 
+-   half hour session -> change?
+-   every half an hour we do short presentations of features that were programmed
+-   Introactivity: 
+    -   Move around is good
+    -   throw in words -> use them to create short chunks of stories (questions)
+    -   make the part quite long, participate
+    -   parents should do same thing as children
+    ->  children can choose their groups
+
+-   some kids are more shy, many people could make them anxious 
+    just make the kids feel comfortable
+    -   safe place, no-one is angry, you can not do something wrong.
+    -   parents should be around age < 10
+    
+-   6-9, 10-12, 13-16 age groups or brothers and sisters
+        
+-   how to divide in groups
+-   show tools, choose tools
+    
+-   how to get story out of kids
+    -   tell store to person
+    -   recap for scratch: 
+        -   describe everything that was before walking through the door
+        -   chain the sentences, add more
+    
+    
+-   next meeting: Wed. 24th of April
+    -   18:00
+    -   meet in clients office of tanja?
+    
+    
+-   IPAD -> not on websit but maybe thare are tools
+
+
+Next MEETING
+------------
+
+-   Tools fit to show
+-   Estimate the Tools: 
+    -   Age range of kids
+    -   time to learn, introduction
+    -   what to do woth them
+-   create an introduction for the tool for the kids ready to show us all
 

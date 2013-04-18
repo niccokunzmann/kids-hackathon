@@ -11,3 +11,4 @@ Nicco brings:
 - 	print out scratch cards (http://info.scratch.mit.edu/Translation/Translating_Scratch_Materials)
 - 	python cheat sheet (with installation instructions?)
 -	buy a lot of bad, small USB Sticks
+
