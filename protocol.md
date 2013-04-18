@@ -42,6 +42,7 @@ Protocol for 18th April 2013
 -   6-9, 10-12, 13-16 age groups or brothers and sisters
         
 -   how to divide in groups
+    -   no problem
 -   show tools, choose tools
     
 -   how to get story out of kids
@@ -50,14 +51,11 @@ Protocol for 18th April 2013
         -   describe everything that was before walking through the door
         -   chain the sentences, add more
     
-    
 -   next meeting: Wed. 24th of April
     -   18:00
     -   meet in clients office of tanja?
     
-    
 -   IPAD -> not on websit but maybe thare are tools
-
 
 Next MEETING
 ------------
@@ -68,4 +66,4 @@ Next MEETING
     -   time to learn, introduction
     -   what to do woth them
 -   create an introduction for the tool for the kids ready to show us all
-
+-   vanessa: what about this story telling with kids: how does it work, we do not know
