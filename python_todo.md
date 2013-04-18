@@ -12,10 +12,12 @@ Things TODO for the Python gaming framework
 	-	encoding is a horror in the windows console
 -	start HTTP server with markdown support and 
 	javascript command line for text input
+	-	point&klick: pictures that were klicked 
+		are copied into the command line
 
 
 
-**Priority: LOW**
+**Priority: low**
 
 -	decide: start server when room is started and spiel is just imported?
 -	pypi package with installation.py
