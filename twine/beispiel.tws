@@ -20,11 +20,11 @@ p9
 (dp11
 S'selected'
 p12
-I00
+I01
 sS'pos'
 p13
 (lp14
-I51
+I52
 aI35
 asS'passage'
 p15
@@ -34,7 +34,7 @@ p16
 (dp17
 S'text'
 p18
-VYour story will display this passage first. Edit it by double clicking it. [[Passage]]
+VYour story will display this passage first. Edit it by double clicking it. [[Passage]]\u000a\u000a<html><img src="http://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Injection.svg/220px-Injection.svg.png"/></html>
 p19
 sS'tags'
 p20
@@ -66,7 +66,7 @@ VStart
 p30
 sbsa(dp31
 g12
-I01
+I00
 sg13
 (lp32
 I115
@@ -106,8 +106,8 @@ g12
 I00
 sg13
 (lp43
-I526
-aI324
+I631
+aI398
 asg15
 (itiddlywiki
 Tiddler
@@ -254,8 +254,8 @@ g12
 I00
 sg13
 (lp87
-I255
-aI249
+I494
+aI192
 asg15
 (itiddlywiki
 Tiddler
@@ -291,8 +291,8 @@ g12
 I00
 sg13
 (lp98
-I395
-aI249
+I832
+aI369
 asg15
 (itiddlywiki
 Tiddler
