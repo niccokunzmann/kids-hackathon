@@ -31,7 +31,7 @@ print z * 2, 'Fledermäuse umfliegen dich und spucken dir in den Mund.'
 if raw_input('Wird dir schlecht? (ja./nein.)') == 'ja.':
     print 'Nach dem Schrecken rennst du in die Küche.'
     ich.geschmack = 'gut'
-    weiter_in('küche')
+    weiter_in('kueche')
 else:
     print 'Das lässt vermuten, dass du manchmal sehr merkwürdige Sachen isst!'
     ich.geschmack = 'schlecht'

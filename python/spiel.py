@@ -90,7 +90,7 @@ def behandle_spieler_verbindung(verbindung):
     finally:
         verbindung.close()
 
-################ Held
+################ Speichern
 
 alle_spielstaende = {} # (class, name) -> obj
 
@@ -114,6 +114,7 @@ def wird_gespeichert(spielstand):
 
 def lade_spielstand(cls, name):
     stand = alle_spielstaende.get((cls, name))
+    print 'lade_spielstand', alle_spielstaende
     if stand is None: stand = cls(name)
     return stand
     
@@ -121,6 +122,7 @@ class Spielstand(object):
     _speichernd = [] # welche objekte werden gerade abgespeichert
     _speicherzeit = 0
     _name = None
+    
     def __init__(self, name = None):
         self.name = name
         
@@ -132,18 +134,18 @@ class Spielstand(object):
     def name(self, name):
         if name is None:
             return 
+        print 'setze name von', self._name, 'zu', name
         if self._name is None:
             self._name = name
             self.laden()
             wird_gespeichert(self)
         elif self.name == name: pass
         else: print "Wie kommt es,", self._name, ", dass sie einen " \
-                    "anderen Namen wie", name, 'annehmen wollen?'
+                    "anderen Namen wie'", name, "'annehmen wollen?"
 
-    def datei(self):
-        filename = os.path.join('spielstand', self.name + '.' + \
+    def datei_name(self):
+        return os.path.join('spielstand', self.name + '.' + \
                                  self.__class__.__name__.lower())
-        return open(filename, 'w+b')
         
     def wird_gespeichert(self):
         return (self, threading._get_ident()) in self._speichernd
@@ -151,7 +153,7 @@ class Spielstand(object):
     def speichern(self):
         self._speichernd.append((self, threading._get_ident()))
         try:
-            with self.datei() as f:
+            with open(self.datei_name(), 'wb') as f:
                 pickle.dump(self, f)
         finally:
             self._speichernd.remove((self, threading._get_ident()))
@@ -159,18 +161,21 @@ class Spielstand(object):
     def __reduce__(self):
         if not self.wird_gespeichert():
             return lade_spielstand, (self.__class__, self.name)
-        return lade_spielstand, (self.__class__, self.name), [], self.__dict__
+        return lade_spielstand, (self.__class__, self.name), self.__dict__
         
     def laden(self):
+        print 'laden..'
+        if not os.path.isfile(self.datei_name()):
+            return 
+        assert alle_spielstaende.get((self.__class__, self.name)) is None, \
+               alle_spielstaende.get((self.__class__, self.name))
+        alle_spielstaende[(self.__class__, self.name)] = self
         print 'laden!'
-        with self.datei() as f:
-            try:
+        with open(self.datei_name(), 'rb') as f:
                 pickle.load(f)
-            except EOFError:
-                pass # new file
-            
 
-
+################ Held
+                
 verbindungsinformationen = threading.local()
 
 class Held(Spielstand):
