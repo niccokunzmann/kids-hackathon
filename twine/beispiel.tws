@@ -20,7 +20,7 @@ p9
 (dp11
 S'selected'
 p12
-I01
+I00
 sS'pos'
 p13
 (lp14
@@ -69,8 +69,8 @@ g12
 I00
 sg13
 (lp32
-I115
-aI249
+I149
+aI213
 asg15
 (itiddlywiki
 Tiddler
@@ -143,8 +143,8 @@ g12
 I00
 sg13
 (lp54
-I290
-aI10
+I677
+aI164
 asg15
 (itiddlywiki
 Tiddler
@@ -254,8 +254,8 @@ g12
 I00
 sg13
 (lp87
-I494
-aI192
+I454
+aI168
 asg15
 (itiddlywiki
 Tiddler
@@ -365,8 +365,8 @@ g12
 I00
 sg13
 (lp120
-I150
-aI389
+I803
+aI517
 asg15
 (itiddlywiki
 Tiddler
@@ -402,8 +402,8 @@ g12
 I00
 sg13
 (lp131
-I290
-aI389
+I479
+aI515
 asg15
 (itiddlywiki
 Tiddler
