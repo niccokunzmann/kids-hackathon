@@ -4,6 +4,10 @@ Things TODO for the Python gaming framework
 **Priority: HIGH**
 
 -	persist heroes and rooms
+-	no debug output
+-	no error when bad hero name
+-	save which room hero is in
+-	snippet: get heroes for room
 
 **Priority: middle**
 
@@ -21,4 +25,3 @@ Things TODO for the Python gaming framework
 
 -	decide: start server when room is started and spiel is just imported?
 -	pypi package with installation.py
--	
