@@ -55,7 +55,7 @@ Protocol for 18th April 2013
     -   18:00
     -   meet in clients office of tanja?
     
--   IPAD -> not on websit but maybe thare are tools
+-   IPAD -> not on website but maybe there are tools
 
 Next MEETING
 ------------
