@@ -56,6 +56,12 @@ while 1:
             print('Die Zahl ist zu klein!')
             continue
         host, port = hostnames[hostname_list[host_index]]
+    elif ':' in host:
+        host, port = host.rsplit(':')
+        if not port.isdigit():
+            print 'Der Port am ende sollte nur aus Zahlen bestehen'
+            continue
+        port = int(port)
     else:
         continue
     print 'Verbinde zu IP:', host, 'auf Port:', port
@@ -82,6 +88,7 @@ def write_to_stdout():
             except UnicodeDecodeError:
                 pass
             sys.stdout.write(s)
+            sys.stdout.flush()
     except:
         traceback.print_exc()
     print('Es kann nicht mehr angezeigt werden, was passiert.')
@@ -89,12 +96,13 @@ def write_to_stdout():
         
 
 thread = threading.Thread(target = write_to_stdout)
+thread.deamon = True
 thread.start()
 
 while 1:
     try:
         s = sys.stdin.read(1)
-    except KeybordInterrupt:
+    except KeyboardInterrupt:
         connection.close()
     else:
         connection.sendall(s)

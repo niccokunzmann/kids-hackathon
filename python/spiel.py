@@ -1,4 +1,4 @@
-﻿#!/usr/bin/python2
+﻿#!/bin/env python2
 import pickle
 import os
 from threading import local
@@ -31,8 +31,12 @@ class IO(threading.local):
 
     def write(self, string):
         try:
-            self.stdout.write(string)
-            self.flush_stdout()
+            if self.socket:
+                self.socket.sendall(string)
+            else:
+                self.stdout.write(string)
+            #sys.stderr.write('schreibe: ' + str(string))
+            #self.flush_stdout()
         except socket.error:
             pass
 
@@ -61,6 +65,7 @@ def verbindungen_annehmen(s):
     s.close()
 
 thread = threading.Thread(target = verbindungen_annehmen, args = (s,))
+thread.daemon = True
 thread.start()
 
 def broadcast():
@@ -77,16 +82,15 @@ def broadcast():
     s.close()
     
 thread = threading.Thread(target = broadcast)
+thread.daemon = True
 thread.start()
+
 
 
 def behandle_spieler_verbindung(verbindung):
     try:
         stdio.set_socket(verbindung)
-        #sys.stderr.write( 'habe verbindung angenommen!\n')
-        #print 'Hallo! :)'
-        while 1:
-            weiter_in('start')
+        main()
     finally:
         verbindung.close()
 
@@ -107,6 +111,7 @@ def alles_abspeichern():
         time.sleep(SPEICHERINTERVALL)
     
 thread = threading.Thread(target = alles_abspeichern)
+thread.daemon = True
 thread.start()
             
 def wird_gespeichert(spielstand):
@@ -144,6 +149,8 @@ class Spielstand(object):
                     "anderen Namen wie'", name, "'annehmen wollen?"
 
     def datei_name(self):
+        if not os.path.isdir('spielstand'):
+            os.mkdir('spielstand')
         return os.path.join('spielstand', self.name + '.' + \
                                  self.__class__.__name__.lower())
         
@@ -227,13 +234,27 @@ weiter_in = weiter_im
 
 rechnername = socket.gethostname()
 
-__all__ = ['weiter_in', 'weiter_im', 'held', 'rechnername', 'zimmer', \
-           'lade_spielstand']
+alle_helden = []
 
+def main():
+    _held = held()
+    alle_helden.append(_held)
+    try:
+        while 1:
+            s = weiter_in('start')
+            if s != 'Fertig durch das Zimmer gelaufen.':
+                print s
+                break    
+    finally:
+        if _held in alle_helden:
+            alle_helden.remove(_held)
+
+verbindungsname = '%s:%i' % (rechnername, PORT_VERBINDUNG)
+            
+__all__ = ['weiter_in', 'weiter_im', 'held', 'rechnername', 'zimmer', \
+           'lade_spielstand', 'main', 'alle_helden', 'verbindungsname', \
+           'PORT_VERBINDUNG']
 
 if __name__ == '__main__':
-    while 1:
-        s = weiter_in('start')
-        if s != 'Fertig durch das Zimmer gelaufen.':
-            print s
-            break
+    print 'Beim verbinden muss das eingegeben werden: %s' % (verbindungsname,) 
+    main()
