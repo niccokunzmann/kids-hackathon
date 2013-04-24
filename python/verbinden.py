@@ -87,7 +87,10 @@ def write_to_stdout():
                 s = s.decode('utf8')
             except UnicodeDecodeError:
                 pass
-            sys.stdout.write(s)
+            try:
+                sys.stdout.write(s)
+            except UnicodeDecodeError:
+                sys.stdout.write(repr(s)[1:-1])
             sys.stdout.flush()
     except:
         traceback.print_exc()
