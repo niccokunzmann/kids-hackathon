@@ -1,4 +1,4 @@
-﻿#!/bin/env python2
+﻿#!/usr/bin/python2
 import pickle
 import os
 from threading import local
