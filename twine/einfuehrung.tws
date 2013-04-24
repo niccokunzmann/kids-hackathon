@@ -5,7 +5,7 @@ VC:\u005cUsers\u005cwollknaeul\u005cDocuments\u005cprogrammiertes\u005ckids-hack
 p2
 sS'saveDestination'
 p3
-VC:\u005cUsers\u005cwollknaeul\u005cDocuments\u005cprogrammiertes\u005ckids-hackathon\u005ctwine\u005ceinfuehrung.tws
+S'C:\\Users\\wollknaeul\\Documents\\programmiertes\\kids-hackathon\\twine\\einfuehrung.tws'
 p4
 sS'target'
 p5
@@ -24,8 +24,8 @@ I00
 sS'pos'
 p13
 (lp14
-I10
-aI10
+I365
+aI306
 asS'passage'
 p15
 (itiddlywiki
@@ -34,7 +34,7 @@ p16
 (dp17
 S'text'
 p18
-VWir wollen eine Geschichte schreiben aber über was?\u000a\u000a[[Äpfel]] [[Katzen]] [[Omas]]
+V<<set $katze = false>>\u000a\u000aWir wollen eine Geschichte schreiben aber über was?\u000a\u000a[[Äpfel]] [[Katzen]] [[Omas]]\u000a\u000a
 p19
 sS'tags'
 p20
@@ -69,15 +69,15 @@ g12
 I00
 sg13
 (lp32
-I267
-aI31
+I215
+aI91
 asg15
 (itiddlywiki
 Tiddler
 p33
 (dp34
 g18
-VBrauchen [[Äpfel]]
+VDie Omas brauchen [[Äpfel]] um einen Kuchen zu backen.\u000a\u000a[[Start]]
 p35
 sg20
 (lp36
@@ -106,15 +106,15 @@ g12
 I00
 sg13
 (lp43
-I18
-aI259
+I525
+aI93
 asg15
 (itiddlywiki
 Tiddler
 p44
 (dp45
 g18
-V
+V<<set $katze = true>>\u000a\u000aDu findest eine Katze.\u000a\u000a[[Omas]]
 p46
 sg20
 (lp47
@@ -143,15 +143,15 @@ g12
 I00
 sg13
 (lp54
-I207
-aI251
+I54
+aI309
 asg15
 (itiddlywiki
 Tiddler
 p55
 (dp56
 g18
-VDie Oma ist zu klein um die Äpfel vom Baum zu holen!
+V<<if $katze>>\u000aDie Katze holt die Äpfel vom Baum.\u000a<<else>>\u000aDie Oma ist zu klein um die Äpfel vom Baum zu holen!\u000a<<endif>>\u000a\u000a[[Start]]
 p57
 sg20
 (lp58
