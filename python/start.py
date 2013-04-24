@@ -7,4 +7,4 @@ print 'Willkommen im Schloss', rechnername
 print 'Wie heißt du?'
 ich.name = raw_input()
 print 'Ich grüße dich,', ich.name
-weiter_im('wohnzimmer')
+weiter_im('keller')
