@@ -24,3 +24,4 @@ pause: "you do not need to do anything now" -> see who will go on.
 -   Inventory
 -   Mouse example
 -   Reset Script
+-   Music examples
