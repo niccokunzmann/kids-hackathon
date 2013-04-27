@@ -18,3 +18,9 @@ pause: "you do not need to do anything now" -> see who will go on.
 
 **TODO**
 -   create small papers with snippets that show what the code does
+
+**TODO SCRATCH DEMOS**
+-   Dialog
+-   Inventory
+-   Mouse example
+-   Reset Script
