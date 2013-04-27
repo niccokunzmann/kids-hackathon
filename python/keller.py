@@ -4,7 +4,7 @@ from spiel import *
 
 
 # In der nächsten Zeile wird dem Spieler etwas geschrieben
-print 'Hier ist ein Zwerg im Geschräch.'
+print 'Hier ist ein Zwerg im Gespräch.'
 print 'Der Zwerg fragt dich: "Wie geht es dir?"'
 
 # In der nächsten Zeile wird der Spieler gefragt mit raw_input()
