@@ -139,7 +139,7 @@ class Spielstand(object):
     def name(self, name):
         if name is None:
             return 
-        print 'setze name von', self._name, 'zu', name
+        #print 'setze name von', self._name, 'zu', name
         if self._name is None:
             self._name = name
             self.laden()
@@ -157,11 +157,17 @@ class Spielstand(object):
     def wird_gespeichert(self):
         return (self, threading._get_ident()) in self._speichernd
     
+    speichern_fehlgeschlagen = False
     def speichern(self):
         self._speichernd.append((self, threading._get_ident()))
         try:
             with open(self.datei_name(), 'wb') as f:
                 pickle.dump(self, f)
+        except:
+            if not self.speichern_fehlgeschlagen:
+                self.speichern_fehlgeschlagen = True
+                traceback.print_exc()
+                print self.name, "kann nicht gespeichert werden."
         finally:
             self._speichernd.remove((self, threading._get_ident()))
             
@@ -171,15 +177,15 @@ class Spielstand(object):
         return lade_spielstand, (self.__class__, self.name), self.__dict__
         
     def laden(self):
-        print 'laden..'
+        #print 'laden..'
         if not os.path.isfile(self.datei_name()):
             return 
         assert alle_spielstaende.get((self.__class__, self.name)) is None, \
                alle_spielstaende.get((self.__class__, self.name))
         alle_spielstaende[(self.__class__, self.name)] = self
-        print 'laden!'
+        #print 'laden!'
         with open(self.datei_name(), 'rb') as f:
-                pickle.load(f)
+            pickle.load(f)
 
 ################ Held
                 
