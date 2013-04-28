@@ -14,7 +14,7 @@
    id="svg3040"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="Neues Dokument 1">
+   sodipodi:docname="python-cheat-sheet2.svg">
   <defs
      id="defs3042">
     <marker
@@ -40,7 +40,7 @@
      inkscape:pageshadow="2"
      inkscape:zoom="1"
      inkscape:cx="338.55634"
-     inkscape:cy="228.199"
+     inkscape:cy="848.99502"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -203,19 +203,27 @@
          sodipodi:role="line"
          x="393"
          y="91.362183"
-         id="tspan4339">     3 == 6 / 2    (gleich)</tspan><tspan
+         id="tspan4339">     3 == 6 / 2    <tspan
+   style="fill:#565248"
+   id="tspan5080"># gleich</tspan></tspan><tspan
          sodipodi:role="line"
          x="393"
          y="116.36218"
-         id="tspan4345">     8 * 2 != 8     (ungleich)</tspan><tspan
+         id="tspan4345">     8 * 2 != 8     <tspan
+   style="fill:#565248"
+   id="tspan5078"># ungleich</tspan></tspan><tspan
          sodipodi:role="line"
          x="393"
          y="141.36218"
-         id="tspan4355">     1 == 3 / 2    (ganzzahl, int)</tspan><tspan
+         id="tspan4355">     1 == 3 / 2    <tspan
+   style="fill:#565248"
+   id="tspan5082"># ganzzahl int</tspan></tspan><tspan
          sodipodi:role="line"
          x="393"
          y="166.36218"
-         id="tspan4357">     1.5 == 3.0 / 2 (mit komma, float)</tspan><tspan
+         id="tspan4357">     1.5 == 3.0 / 2 <tspan
+   style="fill:#565248"
+   id="tspan5084"># mit komma float</tspan></tspan><tspan
          sodipodi:role="line"
          x="393"
          y="191.36218"
@@ -223,44 +231,46 @@
     <text
        xml:space="preserve"
        style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="74"
-       y="534.36218"
+       x="56"
+       y="543.36218"
        id="text4359"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4361"
-         x="74"
-         y="534.36218">a = 1</tspan><tspan
+         x="56"
+         y="543.36218">a = 1</tspan><tspan
          sodipodi:role="line"
-         x="74"
-         y="559.36218"
+         x="56"
+         y="568.36218"
          id="tspan4363"><tspan
    style="fill:#f44800"
    id="tspan4597">if</tspan> a == 1:</tspan><tspan
          sodipodi:role="line"
-         x="74"
-         y="584.36218"
+         x="56"
+         y="593.36218"
          id="tspan4365">    ...</tspan><tspan
          sodipodi:role="line"
-         x="74"
-         y="609.36218"
+         x="56"
+         y="618.36218"
          id="tspan4555"><tspan
    style="fill:#f44800"
    id="tspan4599">elif</tspan> a != 2:</tspan><tspan
          sodipodi:role="line"
-         x="74"
-         y="634.36218"
-         id="tspan4557">    # wenn a != 1 und a != 2</tspan><tspan
+         x="56"
+         y="643.36218"
+         id="tspan4557"
+         style="fill:#565248">    # wenn a != 1 und a != 2</tspan><tspan
          sodipodi:role="line"
-         x="74"
-         y="659.36218"
+         x="56"
+         y="668.36218"
          id="tspan4367"><tspan
    style="fill:#fd3301"
    id="tspan4601">else</tspan>:</tspan><tspan
          sodipodi:role="line"
-         x="74"
-         y="684.36218"
-         id="tspan4369">    # sonst</tspan></text>
+         x="56"
+         y="693.36218"
+         id="tspan4369"
+         style="fill:#565248">    # sonst</tspan></text>
     <g
        id="g4732">
       <text
@@ -453,7 +463,7 @@
     </g>
     <g
        id="g4790"
-       transform="translate(-54,-369)">
+       transform="translate(-60,-400)">
       <path
          inkscape:connector-curvature="0"
          id="path4761"
@@ -504,5 +514,217 @@
          x="70"
          y="369.36218"
          id="tspan4832" /></text>
+    <g
+       id="g4834">
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="107"
+         y="782.99695"
+         id="text4836"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4838"
+           x="107"
+           y="782.99695"><tspan
+   style="fill:#fd3301"
+   id="tspan4840">for</tspan> name in [<tspan
+   style="fill:#015a01"
+   id="tspan4842">'franz'</tspan>, <tspan
+   style="fill:#015a01"
+   id="tspan4844">'ludwig'</tspan>, <tspan
+   style="fill:#015a01"
+   id="tspan4846">'herb3rt'</tspan>]:</tspan><tspan
+           sodipodi:role="line"
+           x="107"
+           y="807.99695"
+           id="tspan4848"><tspan
+   style="fill:#fd3301"
+   id="tspan4850">    print</tspan> name,</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="155"
+         y="856.48425"
+         id="text4852"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4854"
+           x="155"
+           y="856.48425">franz ludwig herb3rt</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="35"
+         y="797.36218"
+         id="text4856"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4858"
+           x="35"
+           y="797.36218">Code</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="36.025391"
+         y="856.36218"
+         id="text4860"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4862"
+           x="36.025391"
+           y="856.36218">Ausgabe</tspan></text>
+      <rect
+         y="752.36218"
+         x="14"
+         height="129"
+         width="454"
+         id="rect4864"
+         style="fill:none;stroke:#010101;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <rect
+         style="fill:none;stroke:#010101;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect5022"
+         width="699"
+         height="129"
+         x="17"
+         y="900.36218" />
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="61.871094"
+         y="920.03796"
+         id="text5024"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan5026"
+           x="61.871094"
+           y="920.03796">Im Spiel:</tspan><tspan
+           sodipodi:role="line"
+           x="61.871094"
+           y="945.03796"
+           id="tspan5028">ich = held()  <tspan
+   style="fill:#565248"
+   id="tspan5064"># den benutzer in variable ich speichern</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="61.871094"
+           y="970.03796"
+           id="tspan5034">held.name = ... <tspan
+   style="fill:#565248"
+   id="tspan5066"># name zuweisen, unter ihm wird abgespeichert</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="61.871094"
+           y="995.03796"
+           id="tspan5032">hier = zimmer(<tspan
+   style="fill:#015a01"
+   id="tspan5070">'wohnzimmer'</tspan>) <tspan
+   style="fill:#565248"
+   id="tspan5068"># das wohnzimmer in die variablen hier</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="61.871094"
+           y="1020.038"
+           id="tspan5036">weiter_im(...) <tspan
+   style="fill:#565248"
+   id="tspan5072"># im Zimmer ... geht es weiter</tspan></tspan><tspan
+           sodipodi:role="line"
+           x="61.871094"
+           y="1045.038"
+           id="tspan5030" /></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="404"
+       y="626.36218"
+       id="text5038"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5040"
+         x="404"
+         y="626.36218">Funktionen definieren um code</tspan><tspan
+         sodipodi:role="line"
+         x="404"
+         y="651.36218"
+         id="tspan5048">wieder zu verwenden</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="500"
+       y="687.36218"
+       id="text5042"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5044"
+         x="500"
+         y="687.36218"><tspan
+   style="fill:#fd3301"
+   id="tspan5058">def</tspan> f(a):</tspan><tspan
+         sodipodi:role="line"
+         x="500"
+         y="712.36218"
+         id="tspan5052"><tspan
+   style="fill:#fd3301"
+   id="tspan5060">    print</tspan> a</tspan><tspan
+         sodipodi:role="line"
+         x="500"
+         y="737.36218"
+         id="tspan5054">f(1) <tspan
+   style="fill:#565248"
+   id="tspan5062"># gibt a aus</tspan></tspan><tspan
+         sodipodi:role="line"
+         x="500"
+         y="762.36218"
+         id="tspan5046">     </tspan></text>
+    <rect
+       style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect5086"
+       width="217"
+       height="100"
+       x="456"
+       y="284.36218" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="243.99745"
+       y="514.94818"
+       id="text5088"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.86215681,-0.50664152,0.50664152,0.86215681,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan5090"
+         x="243.99745"
+         y="514.94818">Tips </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="520"
+       y="312.36218"
+       id="text5092"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5094"
+         x="520"
+         y="312.36218">Leerzeichen</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="468"
+       y="341.36218"
+       id="text5096"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5098"
+         x="468"
+         y="341.36218">lesbare Var_Nam =  ...</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="460"
+       y="369.36218"
+       id="text5100"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan5102"
+         x="460"
+         y="369.36218">nach : immer einrücken</tspan></text>
   </g>
 </svg>
