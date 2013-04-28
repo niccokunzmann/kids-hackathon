@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   id="svg3040"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="Neues Dokument 1">
+  <defs
+     id="defs3042">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path3852"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="338.55634"
+     inkscape:cy="228.199"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3045">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="58.57143"
+       y="83.790756"
+       id="text3056"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3058"
+         x="58.57143"
+         y="83.790756"
+         style="font-size:20px">Variablen sind wie Kisten:</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="84.285721"
+       y="193.79076"
+       id="text3060"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3062"
+         x="84.285721"
+         y="193.79076"
+         style="font-size:20px">a = <tspan
+   style="fill:#015a01"
+   id="tspan3073">&quot;hallo&quot; </tspan></tspan></text>
+    <path
+       style="fill:#816647;fill-opacity:1;fill-rule:nonzero;stroke:#010101;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 204.06725,150.9375 0,77.125 85.71875,0 0,-77.125 -12.875,0 0,40 -58.5625,0 0,-40 -14.28125,0 z"
+       id="rect3064"
+       inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="241.42857"
+       y="213.79076"
+       id="text3069"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3071"
+         x="241.42857"
+         y="213.79076"
+         style="font-weight:bold">a</tspan></text>
+    <path
+       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Lend)"
+       d="m 148.57143,166.6479 c 47.39441,-76.662227 93.89252,-13.23511 95.71428,-11.42857"
+       id="path3075"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4289"
+       y="-76.160408"
+       x="230.73373"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       transform="matrix(0.70074197,0.71341481,-0.71341481,0.70074197,0,0)"
+       inkscape:transform-center-x="33.534237"
+       inkscape:transform-center-y="-35.65561"><tspan
+         style="font-size:20px"
+         y="-76.160408"
+         x="230.73373"
+         id="tspan4291"
+         sodipodi:role="line"><tspan
+           id="tspan4293"
+           style="fill:#015a01">&quot;hallo&quot; </tspan></tspan></text>
+    <rect
+       style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+       id="rect4297"
+       width="305"
+       height="154"
+       x="47"
+       y="93.362183" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path4305"
+       d="m 245.06725,279.9375 0,77.125 85.71875,0 0,-77.125 -12.875,0 0,40 -58.5625,0 0,-40 -14.28125,0 z"
+       style="fill:#816647;fill-opacity:1;fill-rule:nonzero;stroke:#010101;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4307"
+       y="342.79077"
+       x="282.42859"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-weight:bold"
+         y="342.79077"
+         x="282.42859"
+         id="tspan4309"
+         sodipodi:role="line">a</tspan></text>
+    <rect
+       y="235.36218"
+       x="58"
+       height="154"
+       width="305"
+       id="rect4319"
+       style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text4299"
+       y="310.79077"
+       x="259.28571"
+       style="font-size:16px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         style="font-size:20px"
+         y="310.79077"
+         x="259.28571"
+         id="tspan4301"
+         sodipodi:role="line"><tspan
+           id="tspan4303"
+           style="fill:#015a01">&quot;hallo&quot; </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="543"
+       y="74.362183"
+       id="text4321"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="543"
+         y="74.362183"
+         id="tspan4327" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="393"
+       y="66.362183"
+       id="text4333"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4335"
+         x="393"
+         y="66.362183">Das ist wahr (<tspan
+   style="fill:#6600cc"
+   id="tspan4646">True</tspan>): </tspan><tspan
+         sodipodi:role="line"
+         x="393"
+         y="91.362183"
+         id="tspan4339">     3 == 6 / 2    (gleich)</tspan><tspan
+         sodipodi:role="line"
+         x="393"
+         y="116.36218"
+         id="tspan4345">     8 * 2 != 8     (ungleich)</tspan><tspan
+         sodipodi:role="line"
+         x="393"
+         y="141.36218"
+         id="tspan4355">     1 == 3 / 2    (ganzzahl, int)</tspan><tspan
+         sodipodi:role="line"
+         x="393"
+         y="166.36218"
+         id="tspan4357">     1.5 == 3.0 / 2 (mit komma, float)</tspan><tspan
+         sodipodi:role="line"
+         x="393"
+         y="191.36218"
+         id="tspan4337" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="74"
+       y="534.36218"
+       id="text4359"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4361"
+         x="74"
+         y="534.36218">a = 1</tspan><tspan
+         sodipodi:role="line"
+         x="74"
+         y="559.36218"
+         id="tspan4363"><tspan
+   style="fill:#f44800"
+   id="tspan4597">if</tspan> a == 1:</tspan><tspan
+         sodipodi:role="line"
+         x="74"
+         y="584.36218"
+         id="tspan4365">    ...</tspan><tspan
+         sodipodi:role="line"
+         x="74"
+         y="609.36218"
+         id="tspan4555"><tspan
+   style="fill:#f44800"
+   id="tspan4599">elif</tspan> a != 2:</tspan><tspan
+         sodipodi:role="line"
+         x="74"
+         y="634.36218"
+         id="tspan4557">    # wenn a != 1 und a != 2</tspan><tspan
+         sodipodi:role="line"
+         x="74"
+         y="659.36218"
+         id="tspan4367"><tspan
+   style="fill:#fd3301"
+   id="tspan4601">else</tspan>:</tspan><tspan
+         sodipodi:role="line"
+         x="74"
+         y="684.36218"
+         id="tspan4369">    # sonst</tspan></text>
+    <g
+       id="g4732">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4559"
+         y="470.9325"
+         x="219.18848"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="470.9325"
+           x="219.18848"
+           id="tspan4561"
+           sodipodi:role="line">zahl = 1</tspan><tspan
+           id="tspan4563"
+           y="495.9325"
+           x="219.18848"
+           sodipodi:role="line"><tspan
+   id="tspan4593"
+   style="fill:#f44800">while</tspan> zahl &lt; 5:</tspan><tspan
+           id="tspan4565"
+           y="520.9325"
+           x="219.18848"
+           sodipodi:role="line"><tspan
+   id="tspan4595"
+   style="fill:#f44800">    print</tspan> zahl</tspan><tspan
+           id="tspan4567"
+           y="545.9325"
+           x="219.18848"
+           sodipodi:role="line">    zahl = zahl + 1</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4569"
+         y="471.04968"
+         x="432.26563"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="471.04968"
+           x="432.26563"
+           id="tspan4571"
+           sodipodi:role="line">1</tspan><tspan
+           id="tspan4575"
+           y="496.04968"
+           x="432.26563"
+           sodipodi:role="line">2</tspan><tspan
+           id="tspan4577"
+           y="521.04968"
+           x="432.26563"
+           sodipodi:role="line">3</tspan><tspan
+           id="tspan4579"
+           y="546.04968"
+           x="432.26563"
+           sodipodi:role="line">4</tspan><tspan
+           id="tspan4581"
+           y="571.04968"
+           x="432.26563"
+           sodipodi:role="line" /><tspan
+           id="tspan4573"
+           y="596.04968"
+           x="432.26563"
+           sodipodi:role="line" /></text>
+      <rect
+         y="416.36218"
+         x="189"
+         height="154"
+         width="479"
+         id="rect4583"
+         style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4585"
+         y="436.36218"
+         x="221"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="436.36218"
+           x="221"
+           id="tspan4587"
+           sodipodi:role="line">Code</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4589"
+         y="436.11804"
+         x="402"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="436.11804"
+           x="402"
+           id="tspan4591"
+           sodipodi:role="line">Ausgabe</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4695"
+         y="470.36218"
+         x="497"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="470.36218"
+           x="497"
+           id="tspan4697"
+           sodipodi:role="line"><tspan
+   id="tspan4703"
+   style="fill:#fd3301">for</tspan> i in <tspan
+   id="tspan4705"
+   style="fill:#6600cc">range</tspan>(1, 5):</tspan><tspan
+           id="tspan4699"
+           y="495.36218"
+           x="497"
+           sodipodi:role="line"><tspan
+   id="tspan4701"
+   style="fill:#fd3301">    print</tspan> i</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="531"
+         y="436.36218"
+         id="text4709"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan4711"
+           x="531"
+           y="436.36218">Code</tspan></text>
+    </g>
+    <g
+       id="g4715">
+      <text
+         sodipodi:linespacing="125%"
+         id="text4648"
+         y="782.99695"
+         x="107"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="782.99695"
+           x="107"
+           id="tspan4650"
+           sodipodi:role="line"><tspan
+   id="tspan4664"
+   style="fill:#fd3301">for</tspan> name in [<tspan
+   id="tspan4658"
+   style="fill:#015a01">'franz'</tspan>, <tspan
+   id="tspan4660"
+   style="fill:#015a01">'ludwig'</tspan>, <tspan
+   id="tspan4662"
+   style="fill:#015a01">'herb3rt'</tspan>]:</tspan><tspan
+           id="tspan4652"
+           y="807.99695"
+           x="107"
+           sodipodi:role="line"><tspan
+   id="tspan4666"
+   style="fill:#fd3301">    print</tspan> name,</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4654"
+         y="856.48425"
+         x="155"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="856.48425"
+           x="155"
+           id="tspan4656"
+           sodipodi:role="line">franz ludwig herb3rt</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4668"
+         y="797.36218"
+         x="35"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="797.36218"
+           x="35"
+           id="tspan4670"
+           sodipodi:role="line">Code</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text4672"
+         y="856.36218"
+         x="36.025391"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="856.36218"
+           x="36.025391"
+           id="tspan4674"
+           sodipodi:role="line">Ausgabe</tspan></text>
+      <rect
+         style="fill:none;stroke:#010101;stroke-width:1.99999988;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0"
+         id="rect4713"
+         width="454"
+         height="129"
+         x="14"
+         y="752.36218" />
+    </g>
+    <g
+       id="g4790"
+       transform="translate(-54,-369)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4761"
+         d="m 476,602.375 c -7.1797,0 -13,5.8203 -13,13 0,5.78809 3.77185,10.69117 9,12.375 l 0,10.8125 -15.90625,4.9375 1.125,5.8125 L 472,644.75 l 0,10.875 -14.15625,23.84375 6,3.59375 11.65625,-19.65625 11.65625,19.65625 6,-3.59375 L 479,655.625 l 0,-12.5 16.78125,5.1875 1.125,-5.8125 L 479,636.96875 479,628 c 5.73404,-1.35386 10,-6.47738 10,-12.625 0,-7.1797 -5.8203,-13 -13,-13 z"
+         style="fill:none;stroke:#010101;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         sodipodi:linespacing="125%"
+         id="text4776"
+         y="620.36218"
+         x="516"
+         style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           id="tspan4780"
+           y="620.36218"
+           x="516"
+           sodipodi:role="line">Benutzereingabe:</tspan><tspan
+           id="tspan4782"
+           y="645.36218"
+           x="516"
+           sodipodi:role="line">antwort = <tspan
+   id="tspan4786"
+   style="fill:#6600cc">raw_input</tspan>(<tspan
+   id="tspan4788"
+   style="fill:#015a01">'Frage'</tspan>)</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:20px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="70"
+       y="294.36218"
+       id="text4798"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4800"
+         x="70"
+         y="294.36218">(mit <tspan
+   style="fill:#f44800"
+   id="tspan4830">print</tspan> kann</tspan><tspan
+         sodipodi:role="line"
+         x="70"
+         y="319.36218"
+         id="tspan4804"> man den Inhalt </tspan><tspan
+         sodipodi:role="line"
+         x="70"
+         y="344.36218"
+         id="tspan4808">         ausgeben)</tspan><tspan
+         sodipodi:role="line"
+         x="70"
+         y="369.36218"
+         id="tspan4832" /></text>
+  </g>
+</svg>
